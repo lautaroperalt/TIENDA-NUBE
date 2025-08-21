@@ -69,8 +69,6 @@ body{
     margin: 0px;
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
-
-
 .boton{
     text-decoration: none;
     border-radius: 100px;
@@ -79,8 +77,6 @@ body{
     padding: 10px 24px;
     border: 1px;
 }
-
-
 .boton-principal{
     background-color: white;
     color: #0050c3;
@@ -91,7 +87,6 @@ body{
     color: white;
     border-color: white;
 }
-
 .boton-secundario{
     background-color: #0050c3;
     color: white;
@@ -127,8 +122,6 @@ input{
     display: flex;
     align-items: center;
 }
-  
-
 #imagen-hero{
     display: flex;
     height: 500px;
@@ -136,21 +129,18 @@ input{
     margin-top: 80px;
     margin-right: 50px;
 }
-
 #Cajaprincipal{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 54px;
 }
-
 .segundofondo{
     background-color: white;
     height: 100vh;
     width: 100vw;
     padding: 120px 0px 0px;
 }
-
 .segundofondo h2{
     text-align: center;
     font-size: 42px;
@@ -344,19 +334,22 @@ input{
     border-radius: 16px;
     width: 100%;
     height: 100%;
-    padding: 40px 24px;    
+    padding: 40px 24px;   
+    display: flex;
+    flex-direction: column; 
 }
 
 .caja-pg5 p{
     color: #4B5FA0;
     font-size: 16px;
-    margin: 0px 0px 9px
+    margin: 0px 0px 9px;
 }
 .caja-pg5 a{
     color: #0050c3;
     padding: 0px 0px 3px;
     font-size: 14px;
     margin-top: 32px;
+    margin-top: auto;
 }
 .sextofondo{    
     background-color: white;
@@ -364,7 +357,6 @@ input{
     width: 100vw;
     padding: 60px 0px;
 }
-
 .contenedor-pg6{
     display: flex;
     align-items: center;
@@ -375,22 +367,29 @@ input{
     margin-right: -120px;
     padding: 0px 13,5px 0px 13,5px;
 }
-.imagenseñorainfluencer{
+.main-photo-pg6{
     max-width: 60%;
     height: auto;
 }
 .contenedortexto-pg6{
     margin-right: 50px;
 }
-
 .titulo-pg6{
     margin: 0px 0px 24px;
     color: #171E43;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
 .p-pg6{
     font-size: 18px;
     color: #343537;
+    font-weight: 400;
+    margin-left: -20px;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+}
+.urgent-correction{
+    margin-left: -20px;
 }
 .sextofondo .boton-secundario{
     text-decoration: none;
@@ -398,16 +397,16 @@ input{
     align-items: center;
     transition: 0.2s;
     padding: 10px 24px;
+    margin-top: 32px;
     border: 1px solid #0050c3;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
-
 .septimofondo{
     background-color: white;
     height: 100vh;
     width: 100vw;
-    padding: 120px 0px;
+    padding: 300px 0px;
 }
-
 .contenedor-pg7{
     display: flex;
     justify-content: space-between;
@@ -417,38 +416,90 @@ input{
 }
 .contenedortexto-pg7{
     font-size: 25px;
-    padding-right: 180px;
-    width: 35%;
+    width: 100%;
     color:#171E43;
-    font-weight: 400;
     font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
-
+    justify-content: right;
 }
-
+.contenedor-pg7 h2{
+    font-weight: 500;
+}
 .contenedorpreguntas-pg7{
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     margin-left: 110px;
 }
-
 .preguntas-pg7{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color:#171E43;
     font-size: 24px;
-    font-weight: 600px;
+    font-weight: 400px;
     padding: 15px 0;
     font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
 .respuestas-pg7{
-    color: #171E43;
+    color: #343537;
     font-size: 16px;
+    font-weight: 400;
     padding-bottom: 15px;
     font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
-
 .preguntasyrespuestas-pg7{
     margin-bottom: 20px;
+}
+.respuestas-pg7 a{
+    text-decoration: none;
+    color: #0050c3;
+}
+
+.conteinermayor{
+    margin: 24px;
+    margin-left: 60px;
+}
+.conteinermayor .abajo{
+    margin-top: 3px;
+    color:rgb(199, 193, 193);
+}
+
+.conteinermayor .arriba{
+    margin-bottom: 0px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    padding:13.5px;
+}
+.logos-footer{
+    margin-right: 100px;
+    margin-top:50px;
+    padding-right: 13.5px;
+
+}
+#logo-instragram{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+#logo-youtube{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+#logo-x{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+#logo-linkedin{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+#logo-facebook{
+    height: 24px;
+    width: 24px;
 }
