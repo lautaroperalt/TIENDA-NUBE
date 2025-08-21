@@ -405,6 +405,50 @@ input{
     background-color: white;
     height: 100vh;
     width: 100vw;
-    padding: 120px 0px 0px;
+    padding: 120px 0px;
 }
 
+.contenedor-pg7{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    gap: 40px;
+}
+.contenedortexto-pg7{
+    font-size: 25px;
+    padding-right: 180px;
+    width: 35%;
+    color:#171E43;
+    font-weight: 400;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+
+}
+
+.contenedorpreguntas-pg7{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.preguntas-pg7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#171E43;
+    font-size: 24px;
+    font-weight: 600px;
+    padding: 15px 0;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+}
+.respuestas-pg7{
+    color: #171E43;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+}
+
+.preguntasyrespuestas-pg7{
+    margin-bottom: 20px;
+}
