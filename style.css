@@ -1,5 +1,3 @@
-
-
 #logo{
     display: flex;
     height: 40px;
@@ -17,7 +15,6 @@ header{
     display:flex;
     justify-content: space-between;
 }
-
 #logo-tienda-nube{
     display: flex;
     align-items: center;
@@ -30,7 +27,6 @@ header div{
     display: block;
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
-
 h1{
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
     font-size: 42px;
@@ -40,20 +36,17 @@ h1{
     letter-spacing: -.54px;
     margin-top: 100px;
 }
-
 section{
     padding-right: 90px;
     padding-left: 90px;
     padding-bottom: 54px;
 }
-
 p{
     font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
     color : white;
     margin-top: 16px;
     margin: 24px;
 }
-
 .parrafo2{
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
     color: white;
@@ -162,7 +155,6 @@ input{
     height: 173px;
     color: #171E43
 }
-
 .span-pg2{
     color: #343537;
 }
@@ -170,15 +162,12 @@ input{
     width: 24px;
     height: 24px;
 }
-
-
 .tercerfondo{
     background-color: white;
     height: 100vh;
     width: 100vw;
     padding: 120px 0px 0px;
 }
-
 .icon-pg3{
     width: 32px;
     height: 32px;
@@ -190,7 +179,6 @@ input{
     margin-bottom: 15px;
     
 }
-
 .contenedormenor-pg3{
     display: flex;
     align-items: center;
@@ -211,17 +199,14 @@ input{
     margin-top: 0;
     color: #171E43;
 }
-
 .listado-pg3{
     padding: 20px;
     padding-bottom: 100px;
 }
-
 .main-icon-pg3{
     width: 513px;
     height: 533px;
 }
-
 .listado-pg3 a{
     text-decoration: none;
     border-radius: 100px;
@@ -234,7 +219,6 @@ input{
     font-size: 18px;
     color: #171E43;
 }
-
 .cuartofondo{
     height: 100vh;
     width: 100vw;
@@ -251,7 +235,6 @@ input{
     margin: 0;
     padding: 0;
 }
-
 .cuartofondo h2{
     color: white;
     font-size: 38px;
@@ -259,7 +242,6 @@ input{
     text-align: left;
     font-weight: 600;
 }
-
 .caja-pg4{
     background-color: white;
     border-radius: 5%;
@@ -282,7 +264,6 @@ input{
 .cajaspan-pg4{
     margin-top: 54px;
 }
-
 .cajaspan-pg4 p{
     font-size: 18px;
     color: #343537;
@@ -338,7 +319,6 @@ input{
     display: flex;
     flex-direction: column; 
 }
-
 .caja-pg5 p{
     color: #4B5FA0;
     font-size: 16px;
@@ -454,7 +434,6 @@ input{
     text-decoration: none;
     color: #0050c3;
 }
-
 .conteinermayor{
     margin: 24px;
     margin-left: 60px;
@@ -463,11 +442,9 @@ input{
     margin-top: 3px;
     color:rgb(199, 193, 193);
 }
-
 .conteinermayor .arriba{
     margin-bottom: 0px;
 }
-
 .contenedor-footer{
     display: flex;
     justify-content: space-between;
